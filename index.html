@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="RU-ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <title>Coffee Valley</title>
+</head>
+<body>
+<div class="container-fluid header-static">
+    <div class="container">
+        <header class="row header">
+            <div class="col-xs-4 col-sm-offset-4 col-sm-2 col-md-offset-3 col-md-2 col-lg-offset-3 col-lg-2 phoneHeader">
+                <i class="fa fa-mobile fa-2x" aria-hidden="true"></i><span> +37012345678</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 emailHeader">
+                <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+                <span>test@coffeevalley.com</span>
+            </div>
+            <div class="col-xs-2 col-sm-offset-2 col-sm-1 col-md-offset-3 col-md-1 col-lg-offset-3 col-lg-1 amount text-right">
+                <div>
+                    <a href="#"><img src="img/cartCircle.png" alt=""><p>0</p></a>
+                </div>
+            </div>
+        </header>
+    </div>
+</div>
+    <nav class="navbar navbar-default floating text-center" id="nav">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand empty empty-xs-sm" href="#" id="navLogo"><img src="img/logo.png" class="text-center navbarLogo" alt=""></a>
+                <a class="navbar-brand empty-xs-sm" href="#" id="navLogoSticky"><img src="img/logoNavSticky.png" class="text-center navbarLogo" alt=""></a>
+                <a class="navbar-brand navBrand-xs-sm empty-md-lg" href="#"><img src="img/head_logo.png" class="text-center navbarLogo" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Главная<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Оплата</a></li>
+                    <li><a href="#">Блог</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <div class="amount text-right cartNav">
+                        <div>
+                            <a href="#"><img src="img/cartCircle.png" alt=""><p>0</p></a>
+                        </div>
+                    </div>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-default invisible">Submit</button>
+                </form>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container">
+
+        <!-- slider_1 -->
+
+        <div id="carousel-example-generic" class="hidden-xs carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/slider1_1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/slider1_2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Assortment -->
+        <div id="assortment">
+            <div class="row text-center">
+                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                    <div class="coffee">
+                        <img src="img/coffee.png" alt="">
+                        <div>
+                            <h3><span>К</span>офе</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                    <div class="tea">
+                        <img src="img/tea.png" alt="">
+                        <div>
+                            <h3><span>Ч</span>ай</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                    <div class="chocolate">
+                        <img src="img/chocolate.png" alt="">
+                        <div>
+                            <h3><span>Ш</span>околад</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                    <div class="accessories">
+                        <img src="img/Accessories.png" alt="">
+                        <div>
+                            <h3><span>А</span>ксессуары</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                    <div class="present">
+                        <img src="img/Present.png" alt="">
+                        <div>
+                            <h3><span>П</span>одарок</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                    <div class="pack">
+                        <img src="img/Pack.png" alt="">
+                        <div>
+                            <h3><span>У</span>паковка</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--   Coffee Line_1   -->
+
+        <div class="coffeeLine">
+            <div class="navLine text-right">
+                <span class="prev1"><img src="img/prev.jpg" alt=""></span>
+                <span class="next1"><img src="img/next.jpg" alt=""></span>
+            </div>
+            <div class="row content owl-carousel carousel1 slider-product">
+                <div>
+                    <div class="container-img">
+                        <img src="img/coffeePack1.png" alt="">
+                    </div>
+                    <div class="stars">
+                        <div class="rateStar4 text-center">
+                            <span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span>
+                        </div>
+                    </div>
+                    <h2>наслаждение</h2>
+                    <div class="text-left">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <p>Вид зерна:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <p class="descriptionKind">Robusta</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Степень<br>прожарки:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate4 descriptionRoasting">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Помол:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate3">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Аромат:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate2">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Крепость:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate5">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <form action="#" class="counter">
+                            <div class="row">
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <a href="#" class="button"/>В корзину</a>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="number">
+                                        <span class="plus">+</span>
+                                        <input type="text" value="1" size="5"/>
+                                        <span class="minus">-</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <div class="container-img">
+                        <img src="img/coffeePack2.png" alt="">
+                    </div>
+                    <div class="stars">
+                        <div class="rateStar4 text-center">
+                            <span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span>
+                        </div>
+                    </div>
+                    <h2>ароматный</h2>
+                    <div class="text-left">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <p>Вид зерна:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <p class="descriptionKind">Robusta</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Степень<br>прожарки:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-5 col-md-7 col-lg-7 rate rate4 descriptionRoasting">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Помол:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate3">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Аромат:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate2">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Крепость:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate5">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <form action="#" class="counter">
+                            <div class="row">
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <a href="#" class="button"/>В корзину</a>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="number">
+                                        <span class="plus">+</span>
+                                        <input type="text" value="1" size="5"/>
+                                        <span class="minus">-</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <div class="container-img">
+                        <img src="img/coffeePack3.png" alt="">
+                    </div>
+                    <div class="stars">
+                        <div class="rateStar4 text-center">
+                            <span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span>
+                        </div>
+                    </div>
+                    <h2>доброе утро</h2>
+                    <div class="text-left">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <p>Вид зерна:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <p class="descriptionKind">Arabica Robusta</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Степень<br>прожарки:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate4 descriptionRoasting">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Помол:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate3">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Аромат:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate2">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Крепость:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate5">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <form action="#" class="counter">
+                            <div class="row">
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <a href="#" class="button"/>В корзину</a>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="number">
+                                        <span class="plus">+</span>
+                                        <input type="text" value="1" size="5"/>
+                                        <span class="minus">-</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <div class="container-img">
+                        <img src="img/coffeePack1.png" alt="">
+                    </div>
+                    <div class="stars">
+                        <div class="rateStar4 text-center">
+                            <span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span>
+                        </div>
+                    </div>
+                    <h2>наслаждение</h2>
+                    <div class="text-left">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <p>Вид зерна:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <p class="descriptionKind">Robusta</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Степень<br>прожарки:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate4 descriptionRoasting">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Помол:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate3">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Аромат:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate2">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Крепость:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate5">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <form action="#" class="counter">
+                            <div class="row">
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <a href="#" class="button"/>В корзину</a>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="number">
+                                        <span class="plus">+</span>
+                                        <input type="text" value="1" size="5"/>
+                                        <span class="minus">-</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--   Coffee Line_2   -->
+
+        <div class="coffeeLine">
+            <div class="navLine text-right">
+                <span class="prev2"><img src="img/prev.jpg" alt=""></span>
+                <span class="next2"><img src="img/next.jpg" alt=""></span>
+            </div>
+            <div class="row content owl-carousel carousel2 slider-product">
+                <div>
+                    <div class="container-img">
+                        <img src="img/coffeePack1.png" alt="">
+                    </div>
+                    <div class="stars">
+                        <div class="rateStar4 text-center">
+                            <span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span>
+                        </div>
+                    </div>
+                    <h2>наслаждение</h2>
+                    <div class="text-left">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <p>Вид зерна:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <p class="descriptionKind">Robusta</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Степень<br>прожарки:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate4 descriptionRoasting">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Помол:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate3">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Аромат:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate2">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Крепость:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate5">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <form action="#" class="counter">
+                            <div class="row">
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <a href="#" class="button"/>В корзину</a>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="number">
+                                        <span class="plus">+</span>
+                                        <input type="text" value="1" size="5"/>
+                                        <span class="minus">-</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <div class="container-img">
+                        <img src="img/coffeePack2.png" alt="">
+                    </div>
+                    <div class="stars">
+                        <div class="rateStar4 text-center">
+                            <span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span>
+                        </div>
+                    </div>
+                    <h2>ароматный</h2>
+                    <div class="text-left">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <p>Вид зерна:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <p class="descriptionKind">Robusta</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Степень<br>прожарки:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-5 col-md-7 col-lg-7 rate rate4 descriptionRoasting">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Помол:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate3">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Аромат:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate2">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Крепость:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate5">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <form action="#" class="counter">
+                            <div class="row">
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <a href="#" class="button"/>В корзину</a>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="number">
+                                        <span class="plus">+</span>
+                                        <input type="text" value="1" size="5"/>
+                                        <span class="minus">-</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <div class="container-img">
+                        <img src="img/coffeePack3.png" alt="">
+                    </div>
+                    <div class="stars">
+                        <div class="rateStar4 text-center">
+                            <span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span>
+                        </div>
+                    </div>
+                    <h2>доброе утро</h2>
+                    <div class="text-left">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <p>Вид зерна:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <p class="descriptionKind">Arabica Robusta</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Степень<br>прожарки:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate4 descriptionRoasting">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Помол:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate3">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Аромат:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate2">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Крепость:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate5">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <form action="#" class="counter">
+                            <div class="row">
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <a href="#" class="button"/>В корзину</a>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="number">
+                                        <span class="plus">+</span>
+                                        <input type="text" value="1" size="5"/>
+                                        <span class="minus">-</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <div class="container-img">
+                        <img src="img/coffeePack1.png" alt="">
+                    </div>
+                    <div class="stars">
+                        <div class="rateStar4 text-center">
+                            <span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span><span>
+                                <div></div>
+                                </span>
+                        </div>
+                    </div>
+                    <h2>наслаждение</h2>
+                    <div class="text-left">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <p>Вид зерна:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <p class="descriptionKind">Robusta</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Степень<br>прожарки:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate4 descriptionRoasting">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Помол:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate3">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Аромат:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate2">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
+                                <p>Крепость:</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 rate rate5">
+                                <span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span><span>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <form action="#" class="counter">
+                            <div class="row">
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <a href="#" class="button"/>В корзину</a>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="number">
+                                        <span class="plus">+</span>
+                                        <input type="text" value="1" size="5"/>
+                                        <span class="minus">-</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- slider Banners  -->
+
+        <div class="sliderBanners hidden-xs">
+            <div class="navLine text-right">
+                <span class="prev3"><img src="img/prev.jpg" alt=""></span>
+                <span class="next3"><img src="img/next.jpg" alt=""></span>
+            </div>
+            <div class="owl-carousel bannerContent slider-banner">
+                <div class="item"><img src="img/banner.png" alt=""></div>
+                <div class="item"><img src="img/banner.png" alt=""></div>
+            </div>
+
+        </div>
+
+        <!--  coffee info slider  -->
+
+        <div class="coffeeInfo hidden-xs">
+            <h2 class="text-right">Заваривание кофе</h2>
+            <div class="owl-carousel makeCoffeeSlider">
+                <div>
+                    <div class="row">
+                        <div class="col-sm-5 col-md-5 col-lg-5">
+                            <div class="containerImg">
+                                <img src="img/coffeeInfoPhoto.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-7 col-md-7 col-lg-7 descriptionMakeCoffee">
+                            <h3 class="text-center">Френч-пресс</h3>
+                            <p>Еще один наиболее распространенный способ
+                                приготовления бодрящего напитка - заварить кофе
+                                во френч-прессе. Такой метод позволяет максимально
+                                извлечь вкус и аромат из молотого кофейного зерна,
+                                именно поэтому он используется при дегустации
+                                нескольких сортов кофе. При заваривании кофе во
+                                френч-прессе вкус напитка получает ся натуральным
+                                и ничем не измененным. Популярность этого способа
+                                приготовления кофе обусловлена еще и его простотой.
+                                Итак, пошаговые рекомендации, как заваривать кофе
+                                во френч-прессе:</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col-sm-5 col-md-5 col-lg-5">
+                            <div class="containerImg">
+                                <img src="img/coffeeInfoPhoto.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-7 col-md-7 col-lg-7 descriptionMakeCoffee">
+                            <h3 class="text-center">Френч-пресс</h3>
+                            <p>Еще один наиболее распространенный способ
+                                приготовления бодрящего напитка - заварить кофе
+                                во френч-прессе. Такой метод позволяет максимально
+                                извлечь вкус и аромат из молотого кофейного зерна,
+                                именно поэтому он используется при дегустации
+                                нескольких сортов кофе. При заваривании кофе во
+                                френч-прессе вкус напитка получает ся натуральным
+                                и ничем не измененным. Популярность этого способа
+                                приготовления кофе обусловлена еще и его простотой.
+                                Итак, пошаговые рекомендации, как заваривать кофе
+                                во френч-прессе:</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col-sm-5 col-md-5 col-lg-5">
+                            <div class="containerImg">
+                                <img src="img/coffeeInfoPhoto.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-7 col-md-7 col-lg-7 descriptionMakeCoffee">
+                            <h3 class="text-center">Френч-пресс</h3>
+                            <p>Еще один наиболее распространенный способ
+                                приготовления бодрящего напитка - заварить кофе
+                                во френч-прессе. Такой метод позволяет максимально
+                                извлечь вкус и аромат из молотого кофейного зерна,
+                                именно поэтому он используется при дегустации
+                                нескольких сортов кофе. При заваривании кофе во
+                                френч-прессе вкус напитка получает ся натуральным
+                                и ничем не измененным. Популярность этого способа
+                                приготовления кофе обусловлена еще и его простотой.
+                                Итак, пошаговые рекомендации, как заваривать кофе
+                                во френч-прессе:</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navLineMakeCoffee text-right">
+                <span class="prev4"><img src="img/prev.jpg" alt=""></span>
+                <span class="next4"><img src="img/next.jpg" alt=""></span>
+            </div>
+        </div>
+
+    </div>
+
+
+<!--    Footer  -->
+
+
+    <footer>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-8 col-md-3 col-lg-offset-1 col-lg-3">
+                    <img src="img/logoFooter.png" alt="">
+                </div>
+                <div class="col-sm-4 col-md-2 col-lg-2">
+                    <h3>Компания</h3>
+                    <a href="#"><p>О нас</p></a>
+                    <a href="#"><p>Реквизиты</p></a>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3">
+                    <h3>Помощь</h3>
+                    <a href="#"><p>Вопрос-ответ</p></a>
+                    <a href="#"><p>Доставка и оплата</p></a>
+                    <a href="#"><p>Как выбрать кофе?</p></a>
+                    <a href="#"><p>Как заваривать кофе?</p></a>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-2">
+                    <h3>Каталог</h3>
+                    <a href="#"><p>Кофе</p></a>
+                    <a href="#"><p>Чай</p></a>
+                    <a href="#"><p>Шоколад</p></a>
+                    <a href="#"><p>Аксессуары</p></a>
+                    <a href="#"><p>Упаковка</p></a>
+                </div>
+                <div class="col-sm-12 col-md-1 col-lg-1 social text-center">
+                    <a href="#">
+                        <div></div>
+                    </a><a href="#">
+                        <div></div>
+                    </a><a href="#">
+                        <div></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
